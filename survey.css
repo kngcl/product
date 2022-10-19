@@ -2,7 +2,6 @@
     background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(images/survey-form-background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1 white;
     color: #fff;
   } 
 .header1{
@@ -11,8 +10,8 @@
   margin: 2.125rem auto 0 auto;
   border-radius: 10px;
   padding: 2.5rem;
-  padding-left: 3%;
-  padding-right: -15%; 
+  padding-right: 70px;
+    
 }
 
 .title{
@@ -25,19 +24,31 @@ label{
 }
 .form-group{
     margin: 0 auto 1.25rem auto;
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 .form-control{
   display: block;
-  width: 90%;
+  width: 100%;
   height: 2.375rem;
-  padding: 0.375rem 0.75rem;
+  padding: 0.10rem 0.05rem;
+  margin:0.500rem 0rem ;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.label{
+     display:-moz-popup ;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+textarea{
+  width: 97%;
+  padding: 0.10rem 0.95rem;
 }
 .button-submit{
   display: block;
@@ -47,4 +58,9 @@ label{
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+}
+button{
+  border:none;
+  font-size: large;
+  letter-spacing: 1px;
 }
