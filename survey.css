@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
+    font-size: large;
     
   } 
   h1{
@@ -81,7 +82,7 @@ textarea{
 }
 button{
   border:none;
-  font-size: large;
+  font-size: larger;
   letter-spacing: 1px;
   box-shadow: #495057;
 }
