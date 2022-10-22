@@ -1,21 +1,23 @@
-  body{
+body{
   background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url("../images/survey-form-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color:#fff;
   font-size: large;
-    
-  } 
-  h1{
+}
+
+h1{
   font-weight: 400;
   line-height: 1.2;
-  }
-  .description {
+}
+
+.description {
   font-style: italic;
   font-weight: 200;
   text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
-} 
+}
+
 .header1{
   background-color: rgba(27, 27, 50, 0.8);
   max-width: 650px;
@@ -23,21 +25,22 @@
   border-radius: 10px;
   padding: 2.5rem;
   padding-right: 50px;
-    
 }
 
 .title{
   text-align: center;
 }
+
 label{
   align-items: center;
   font-size: 20px;
-    
 }
+
 .form-group{
   margin: 0 auto 1.25rem auto;
   padding: 0.5rem;
 }
+
 .form-control{
   display: block;
   width: 100%;
@@ -51,15 +54,18 @@ label{
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 input,select {
   font-size: inherit;
 }
+
 input[type="checkbox"],input[type="radio"]{
   display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
 }
+
 .label{
   display:flex ;
   align-items: center;
@@ -71,6 +77,7 @@ textarea{
   width: 96%;
   padding: 0.10rem 0.95rem;
 }
+
 .button-submit{
   display: block;
   width: 101.5%;
@@ -80,6 +87,7 @@ textarea{
   border-radius: 2px;
   cursor: pointer;
 }
+
 button{
   border:none;
   font-size: larger;
