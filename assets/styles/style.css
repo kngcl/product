@@ -45,8 +45,8 @@ label {
   display: block;
   width: 100%;
   height: 2.375rem;
-  padding: 0.10rem 0.05rem;
-  margin: 0.500rem 0rem;
+  padding: 0.1rem 0.05rem;
+  margin: 0.5rem 0rem;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -75,7 +75,7 @@ input[type="checkbox"], input[type="radio"] {
 
 textarea {
   width: 96%;
-  padding: 0.10rem 0.95rem;
+  padding: 0.1rem 0.95rem;
 }
 
 .button-submit {
