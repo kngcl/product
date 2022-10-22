@@ -19,7 +19,7 @@ h1 {
 }
 
 .header1 {
-  background-color: rgba(27, 27, 50, 0.8);
+  background-color: rgb(27 27 50 80%);
   max-width: 650px;
   margin: 2.125rem auto 0 auto;
   border-radius: 10px;
